@@ -1,0 +1,245 @@
+{
+  "last_updated": "2025-04-01",
+  "disclaimer": "All prices shown are indicative ex-showroom prices in INR (Pan-India, subject to change without notice) and do not include RTO, insurance, or other on-road charges. Please confirm the final on-road price and current offers with your nearest Mahindra dealer.",
+  "vehicles": [
+    {
+      "model": "XUV700",
+      "category": "Mid-size SUV",
+      "tagline": "The Age of SUVs 2.0",
+      "seating_options": [5, 7],
+      "engine_options": [
+        { "fuel": "Petrol", "displacement": "2.0L Turbo-Petrol", "power_bhp": 200, "torque_nm": 380 },
+        { "fuel": "Diesel", "displacement": "2.2L mHawk Diesel", "power_bhp": 155, "torque_nm": 360, "power_variant_bhp": 185 }
+      ],
+      "transmission_options": ["MT", "AT"],
+      "drivetrain_options": ["4x2", "4x4"],
+      "variants": [
+        {
+          "name": "MX",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT"],
+          "seating": [7],
+          "key_features": ["Dual airbags", "ABS with EBD", "Rear parking sensors", "17-inch steel wheels"],
+          "price_range_inr": { "min": 1399000, "max": 1499000 }
+        },
+        {
+          "name": "AX3",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT"],
+          "seating": [7],
+          "key_features": ["7-inch touchscreen infotainment", "Automatic climate control", "6 airbags"],
+          "price_range_inr": { "min": 1499000, "max": 1599000 }
+        },
+        {
+          "name": "AX5",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "seating": [5, 7],
+          "key_features": [
+            "Dual 10.25-inch integrated screens",
+            "Wireless Android Auto & Apple CarPlay",
+            "6 airbags",
+            "Cruise control"
+          ],
+          "price_range_inr": { "min": 1699000, "max": 1899000 }
+        },
+        {
+          "name": "AX7",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "drivetrain_options": ["4x2", "4x4"],
+          "seating": [5, 7],
+          "key_features": [
+            "ADAS Level 2 (Mahindra AdrenoX)",
+            "Dual 10.25-inch integrated screens",
+            "Panoramic sunroof",
+            "Sony 3D sound system with 12 speakers",
+            "7 airbags",
+            "Ventilated front seats"
+          ],
+          "price_range_inr": { "min": 1899000, "max": 2299000 }
+        },
+        {
+          "name": "AX7 L",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "drivetrain_options": ["4x2", "4x4"],
+          "seating": [7],
+          "key_features": [
+            "ADAS Level 2 (Mahindra AdrenoX)",
+            "Dual 10.25-inch integrated screens",
+            "Panoramic sunroof",
+            "Sony 3D sound system with 12 speakers",
+            "7 airbags",
+            "Captain seats (7-seater luxury layout)",
+            "Ventilated front & second-row seats"
+          ],
+          "price_range_inr": { "min": 2059000, "max": 2549000 }
+        }
+      ]
+    },
+    {
+      "model": "Thar",
+      "category": "Lifestyle Off-roader",
+      "tagline": "Life's a Sport. Be Ready.",
+      "seating_options": [4],
+      "engine_options": [
+        { "fuel": "Petrol", "displacement": "2.0L Turbo-Petrol", "power_bhp": 150, "torque_nm": 320 },
+        { "fuel": "Diesel", "displacement": "2.2L mHawk Diesel", "power_bhp": 130, "torque_nm": 300 }
+      ],
+      "transmission_options": ["MT", "AT"],
+      "drivetrain_options": ["4x4"],
+      "variants": [
+        {
+          "name": "AX(O)",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "seating": [4],
+          "key_features": [
+            "Convertible soft-top",
+            "7-inch touchscreen with Android Auto & Apple CarPlay",
+            "Dual airbags",
+            "4x4 with low-range transfer case",
+            "Cruise control"
+          ],
+          "price_range_inr": { "min": 1299000, "max": 1649000 }
+        },
+        {
+          "name": "LX",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "seating": [4],
+          "key_features": [
+            "Hardtop with rear AC vents",
+            "Adventure Statistics Console",
+            "6 airbags",
+            "4x4 with mechanical locking differential (diesel MT)",
+            "Cruise control"
+          ],
+          "price_range_inr": { "min": 1449000, "max": 1799000 }
+        }
+      ]
+    },
+    {
+      "model": "Thar Roxx",
+      "category": "5-door Lifestyle SUV",
+      "tagline": "Own the Roxx",
+      "seating_options": [5],
+      "engine_options": [
+        { "fuel": "Petrol", "displacement": "2.0L Turbo-Petrol", "power_bhp": 150, "torque_nm": 320 },
+        { "fuel": "Diesel", "displacement": "2.2L mHawk Diesel", "power_bhp": 130, "torque_nm": 300, "power_variant_bhp": 175 }
+      ],
+      "transmission_options": ["MT", "AT"],
+      "drivetrain_options": ["4x2", "4x4"],
+      "variants": [
+        {
+          "name": "MX1",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT"],
+          "seating": [5],
+          "key_features": ["Dual airbags", "ABS with EBD", "Manual AC"],
+          "price_range_inr": { "min": 1274000, "max": 1449000 }
+        },
+        {
+          "name": "AX5L",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "seating": [5],
+          "key_features": ["10.25-inch touchscreen", "6 airbags", "Automatic climate control", "Rear camera"],
+          "price_range_inr": { "min": 1549000, "max": 1799000 }
+        },
+        {
+          "name": "AX7L",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "drivetrain_options": ["4x2", "4x4"],
+          "seating": [5],
+          "key_features": [
+            "Dual 10.25-inch screens",
+            "Panoramic sky roof",
+            "7 airbags",
+            "Level 2 ADAS",
+            "4x4 with mechanical locking differential"
+          ],
+          "price_range_inr": { "min": 1899000, "max": 2199000 }
+        }
+      ]
+    },
+    {
+      "model": "Scorpio-N",
+      "category": "Full-size SUV",
+      "tagline": "Never Gone Soft",
+      "seating_options": [7],
+      "engine_options": [
+        { "fuel": "Petrol", "displacement": "2.0L Turbo-Petrol", "power_bhp": 203, "torque_nm": 370 },
+        { "fuel": "Diesel", "displacement": "2.2L mHawk Diesel", "power_bhp": 132, "torque_nm": 300, "power_variant_bhp": 175 }
+      ],
+      "transmission_options": ["MT", "AT"],
+      "drivetrain_options": ["4x2", "4x4"],
+      "variants": [
+        {
+          "name": "Z2",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT"],
+          "seating": [7],
+          "key_features": ["Dual airbags", "ABS with EBD", "Manual AC", "17-inch steel wheels"],
+          "price_range_inr": { "min": 1399900, "max": 1499900 }
+        },
+        {
+          "name": "Z4",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "seating": [7],
+          "key_features": ["8-inch touchscreen", "Automatic climate control", "6 airbags", "Cruise control"],
+          "price_range_inr": { "min": 1599900, "max": 1799900 }
+        },
+        {
+          "name": "Z6",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "drivetrain_options": ["4x2", "4x4"],
+          "seating": [7],
+          "key_features": [
+            "Twin 17.78 cm infotainment + instrument cluster",
+            "Wireless charging",
+            "6 airbags",
+            "Rain-sensing wipers"
+          ],
+          "price_range_inr": { "min": 1799900, "max": 2099900 }
+        },
+        {
+          "name": "Z8",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "drivetrain_options": ["4x2", "4x4"],
+          "seating": [7],
+          "key_features": [
+            "Sunroof",
+            "Ventilated front seats",
+            "7 airbags",
+            "360-degree camera",
+            "Sony 3D Surround Sound System"
+          ],
+          "price_range_inr": { "min": 2099900, "max": 2399900 }
+        },
+        {
+          "name": "Z8L",
+          "fuel_options": ["Petrol", "Diesel"],
+          "transmission_options": ["MT", "AT"],
+          "drivetrain_options": ["4x2", "4x4"],
+          "seating": [7],
+          "key_features": [
+            "Dual-tone exterior",
+            "Sunroof",
+            "Ventilated front seats",
+            "7 airbags",
+            "360-degree camera",
+            "Sony 3D Surround Sound System",
+            "Electrically adjustable driver seat with memory"
+          ],
+          "price_range_inr": { "min": 2299900, "max": 2549900 }
+        }
+      ]
+    }
+  ]
+}

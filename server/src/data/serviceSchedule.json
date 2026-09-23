@@ -1,0 +1,30 @@
+{
+  "last_updated": "2025-04-01",
+  "disclaimer": "Service intervals below are indicative periodic maintenance service (PMS) guidelines. Please confirm the exact schedule and any active service-plan terms for your specific vehicle (VIN) with your Mahindra dealer/workshop, as intervals can vary by usage and model year.",
+  "schedules": [
+    {
+      "model": "XUV700",
+      "first_free_service": { "km": 1000, "months": 1 },
+      "periodic_interval": { "km": 10000, "months": 12 },
+      "notes": "Whichever comes first. Free services typically cover the first 3 visits; consult your dealer for the current service-plan package."
+    },
+    {
+      "model": "Thar",
+      "first_free_service": { "km": 1000, "months": 1 },
+      "periodic_interval": { "km": 10000, "months": 12 },
+      "notes": "Whichever comes first. Off-road/heavy-duty usage may warrant more frequent oil and filter checks."
+    },
+    {
+      "model": "Thar Roxx",
+      "first_free_service": { "km": 1000, "months": 1 },
+      "periodic_interval": { "km": 10000, "months": 12 },
+      "notes": "Whichever comes first."
+    },
+    {
+      "model": "Scorpio-N",
+      "first_free_service": { "km": 1000, "months": 1 },
+      "periodic_interval": { "km": 10000, "months": 12 },
+      "notes": "Whichever comes first. Diesel variants under heavy load/towing should have oil checked at every visit."
+    }
+  ]
+}

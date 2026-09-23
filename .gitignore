@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.local
+*.local
+dist/
+build/
+.next/
+out/
+coverage/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+*.tsbuildinfo
