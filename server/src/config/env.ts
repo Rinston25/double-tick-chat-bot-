@@ -23,11 +23,17 @@ const envSchema = z.object({
   LOG_LEVEL: z.enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace']).default('info'),
   WEB_ORIGIN: z.string().url().default('http://localhost:3000'),
 
+  LLM_PROVIDER: z.enum(['groq', 'ollama']).default('groq'),
+
   GROQ_API_KEY: z
     .string()
     .min(1, 'GROQ_API_KEY is required — get one from https://console.groq.com/keys'),
   GROQ_MODEL_AGENT: z.string().min(1).default('openai/gpt-oss-120b'),
   GROQ_MODEL_CLASSIFIER: z.string().min(1).default('openai/gpt-oss-20b'),
+
+  OLLAMA_BASE_URL: z.string().url().default('http://localhost:11434/v1'),
+  OLLAMA_MODEL_AGENT: z.string().min(1).default('llama3.2'),
+  OLLAMA_MODEL_CLASSIFIER: z.string().min(1).default('llama3.2'),
 
   REDIS_URL: z.string().url().optional().or(z.literal('')),
 

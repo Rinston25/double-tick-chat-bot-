@@ -14,3 +14,4 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 *.tsbuildinfo
+docs/DEMO_SCRIPT.md

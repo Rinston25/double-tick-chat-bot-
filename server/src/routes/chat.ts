@@ -11,6 +11,8 @@ export interface ChatRouteOptions {
   sessionStore: SessionStore;
   provider: LLMProvider;
   zohoClient: ZohoClient;
+  agentModel: string;
+  classifierModel: string;
 }
 
 const bodySchema = z.object({
@@ -93,7 +95,7 @@ export async function chatRoutes(app: FastifyInstance, opts: ChatRouteOptions): 
     try {
       const classification = await classifyTurn({
         provider: opts.provider,
-        model: env.GROQ_MODEL_CLASSIFIER,
+        model: opts.classifierModel,
         recentMessages: session.messages.slice(-6),
         session,
         logger,
@@ -103,7 +105,7 @@ export async function chatRoutes(app: FastifyInstance, opts: ChatRouteOptions): 
 
       session = await runTurn({
         provider: opts.provider,
-        model: env.GROQ_MODEL_AGENT,
+        model: opts.agentModel,
         session,
         userMessage: message,
         toolContext: { zohoClient: opts.zohoClient, logger, sessionId },
